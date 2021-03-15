@@ -14,7 +14,6 @@ Original App Design Project - README Template
 This app will be a planner/organizer dedicated to organizing Zoom links in one location. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Productivity
 - **Mobile:** Push notifications, 
 - **Story:** Zoom isn't going away anytime soon, so the reception of a Zoom link organizer would appeal to our audience very well. Students and peers would find the usefulness in assuaging Zoom fatigue by removing a barrier to accessing Zoom links. 
@@ -27,12 +26,12 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
 * User must be able to add and store a given zoom link within the app
 * User must be able to see day and time of a given zoom link
 * Users should see all stored zoom links in one tab in a vertical fashion
 * User should get a push notification alert X minutes before the meeting starts.
 * Allow users to give a "name/nickname" for a zoom link so they know which link corresponds to what class/meeting
+* User should view Zoom meetings in a calendar form
 
 **Optional Nice-to-have Stories**
 
@@ -42,12 +41,18 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Stream 
+    * Users should see all stored zoom links in one tab in a vertical fashion   
+    * User must be able to see day and time of a given zoom link
+    * User could be able to find the iCloud recording link for a given zoom link in the app.
+    * Organize links by time/day that they are scheduled.
+* Creation
+    * User must be able to add and store a given zoom link within the app
+    * Allow users to give a "name/nickname" for a zoom link so they know which link corresponds to what class/meeting
+* Settings
+    * User should get a push notification alert X minutes before the meeting starts.
+* Calendar
+    * User should view Zoom meetings in a calendar form
 
 ### 3. Navigation
 
@@ -55,16 +60,19 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 
 * Home tab that contains all of the zoom links
 * A tab that allows a user to add a new zoom link
+* A tab for settings to allow push notifications 
 * (Optional) tab that allows to see cloud recent cloud recordings
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Calendar
+  => Creation Screen, Stream Screen
+* Creation Screen
+  => Calendar, Creation Screen (after posting link)
+* Stream Screen
+  => None
+* Settings
+  => None 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
