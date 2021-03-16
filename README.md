@@ -84,7 +84,7 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 ### Models
 | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | Zoom URL      | String   | unique id for the Zoom link (default field) |
+   | ZoomURL      | String   | unique id for the Zoom link (default field) |
    | host        | String | name of meeting host |
    | image         | File     | image of host profile |
    | meetingStart     | DateTime | date and time when meeting starts |
