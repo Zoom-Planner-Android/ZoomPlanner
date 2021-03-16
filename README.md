@@ -94,7 +94,7 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
    
 ### Networking
 - Stream Screen
-      - (Read/GET) Query all ZoomPosts
+    - (Read/GET) Query all ZoomPosts
          ```swift
          let query = PFQuery(className:"ZoomPost")
          query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
@@ -106,14 +106,14 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
             }
          }
          ```
-      - (Delete) Delete existing ZoomPost (after meeting ends automatically or manually) 
-   - Creation Screen
-      - (Create/POST) Create a new ZoomPost object
-   - Calendar Screen
-      - (Read/GET) Query all Zoom Posts and put in a Calendar format 
-      - (Delete) Delete existing ZoomPost (after meeting ends automatically or manually) 
-   - Settings Screen
-      - None 
+    - (Delete) Delete existing ZoomPost (after meeting ends automatically or manually) 
+- Creation Screen
+    - (Create/POST) Create a new ZoomPost object
+- Calendar Screen
+    - (Read/GET) Query all Zoom Posts and put in a Calendar format 
+    - (Delete) Delete existing ZoomPost (after meeting ends automatically or manually) 
+- Settings Screen
+    - None 
 
 #### [OPTIONAL:] Existing API Endpoints- [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
