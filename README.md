@@ -73,7 +73,7 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-![zoom planner image](https://user-images.githubusercontent.com/77361496/111385297-f4724f00-8680-11eb-923a-674f43a0ec26.jpg| width=600)
+![zoom planner image](https://user-images.githubusercontent.com/77361496/111385297-f4724f00-8680-11eb-923a-674f43a0ec26.jpg ) | width 600
 
 ### [BONUS] Digital Wireframes & Mockups
 
