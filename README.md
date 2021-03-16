@@ -84,14 +84,13 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 ### Models
 | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |### Networking
+   | Zoom URL      | String   | unique id for the Zoom link (default field) |
+   | host        | String | name of meeting host |
+   | image         | File     | image of host profile |
+   | meetingStart     | DateTime | date and time when meeting starts |
+   | meetingEnd     | DateTime | date when time when meeting ends |
+   
+### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
