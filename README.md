@@ -80,7 +80,6 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 | Property      | Type     | Description |
    | ------------- | -------- | ------------|
@@ -89,6 +88,8 @@ This app will be a planner/organizer dedicated to organizing Zoom links in one l
    | image         | File     | image of host profile |
    | meetingStart     | DateTime | date and time when meeting starts |
    | meetingEnd     | DateTime | date when time when meeting ends |
+   | meetingID     | String | Zoom meeting ID |
+   | title | String | Zoom meeting name | 
    
 ### Networking
 - [Add list of network requests by screen ]
