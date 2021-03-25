@@ -1,3 +1,9 @@
+
+# Sprint 1
+
+![zoom1](https://user-images.githubusercontent.com/77361496/112402045-31be8880-8ce2-11eb-926b-4a53e237d9fd.gif)
+
+
 # Zoom Planner
 
 ## Table of Contents
